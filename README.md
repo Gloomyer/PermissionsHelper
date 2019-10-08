@@ -6,7 +6,7 @@
 
 利用这个不可见的fragment来实现请求,无需使用者重写 onRequestPermissionsResult
 
-所以使用起来及其容易
+所以使用起来相当的简洁
 
 ```java
 GPR.request(this)
