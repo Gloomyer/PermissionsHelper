@@ -98,6 +98,7 @@ public class GPR {
         transaction.add(mReqFragment, "key:" + mReqFragment.hashCode());
         transaction.show(mReqFragment);
         transaction.commit();
+        manager = null;
         pers = null;
     }
 
